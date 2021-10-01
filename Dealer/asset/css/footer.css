@@ -1,0 +1,57 @@
+.footer .about {
+    padding: 1rem;
+}
+
+.footer .about h3{
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: #8c8b8c;
+}
+
+.footer .twitter{
+    padding: 1rem;
+}
+
+.footer .twitter .detail{
+    padding: 1rem 0;
+}
+
+.footer a{
+    color: #879a66;
+    font-size: 0.9rem;
+}
+
+.footer .twitter span{
+    background-color: #e9e9e9;
+    color: #8c8b8c;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.footer .other{
+    padding: 1rem;
+}
+
+.footer ul{
+    margin-top: 1rem;
+}
+.footer li{
+    padding: 0.5rem 0;
+}
+
+.footer li:hover>a{
+    color: #afc588;
+}
+
+.copyright{
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+}

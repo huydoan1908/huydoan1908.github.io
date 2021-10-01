@@ -1,0 +1,54 @@
+.header{
+    margin-bottom: 2rem;
+}
+
+.header #logo{
+    font-family: YellowTail;
+    font-size: 4rem;
+}
+
+.header .nav li{
+    display: inline;
+    border-left: dashed #4b4b4b 1px;
+    padding: 0 0.6rem;
+}
+
+.header .nav li:hover a,
+.header .nav li:hover a i{
+    color: #888888;
+}
+
+.header .sign-up{
+    background-color: #fcfcfc;
+    padding: 1.5rem;
+    background-image: url(../img/stripe.png);
+    background-repeat: repeat-x;
+    background-origin: padding-box;
+}
+
+.header .sign-up h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.header .sign-up input{
+    height: 2rem;
+}
+
+.header .sign-up input[type=email]{
+    width: 60%;
+    margin-right: 2rem;
+}
+
+.header .sign-up input[type=button]{
+    width: 30%;
+    font-weight: bold;
+    border: #92a7b5 solid 1px;
+    border-radius: 0.2rem;
+    background-image: linear-gradient(#bbc9d4,#b9c7d2,#8da4b6);
+    cursor: pointer;
+}
+
+.header .sign-up input[type=button]:hover{
+    box-shadow: inset #696969  0 0 5px;
+}
