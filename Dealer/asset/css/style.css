@@ -211,6 +211,9 @@ body{
     background-color: #ffffff;
 }
 
+.content .client-list .client-item{
+    padding: 0 1rem;
+}
 .content .deal-list .deal-item{
     padding: 1.5rem 1rem;
 }
