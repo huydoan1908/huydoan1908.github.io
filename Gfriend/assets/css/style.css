@@ -17,11 +17,10 @@ html{
 .col-1{
     width: 97%;
 }
-.col-2{
+.col-md-2{
     width: 47%;
 }
-
-.col-3{
+.col-md-3{
     width: calc(100%/3);
 }
 
@@ -93,9 +92,14 @@ html{
     line-height: 38px;
 }
 
+#header #mobile-menu,
 #header #search{
     float: right;
     padding: 0 24px;
+}
+
+#header #mobile-menu{
+    display: none;
 }
 
 #header #search:hover{
@@ -103,7 +107,16 @@ html{
     cursor: pointer;
 }
 
-#header .search-icon{
+#header #mobile-menu:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#header #mobile-menu:hover .icon{    
+    color: black;
+}
+
+#header .icon{
     color: white;
     font-size: 14px;
     font-weight: bold;
@@ -140,6 +153,7 @@ html{
     padding: 64px 16px;
     margin: 0 auto;
     width: 800px;
+    max-width: 100%;
 }
 
 #content .section-heading{
@@ -276,18 +290,15 @@ html{
     padding: 32px 0;
 }
 #content .my-info{
-    width: 50%;
     font-size: 18px;
     line-height: 1.75;
+    padding: .5rem;
+    margin-bottom: 1rem;
 }
 
 #content .my-info i{
     display: inline-block;
-    width: 40px;
-}
-
-#content .client-info{
-    width: 50%;
+    width: 40px;    
 }
 
 #content .client-info input{

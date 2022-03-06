@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        width: 85%;
+    }
+    #nav li{
+        display: block;
+        width: 100%;
+    }
+    #nav li a{
+        width: 100%;
+    }
+    #header #search{
+        display: none;
+    }
+    #header #mobile-menu{
+        display: block;
+    }
+    .col-md-3,
+    .col-md-2{
+        width: 100%;
+    }
+}
